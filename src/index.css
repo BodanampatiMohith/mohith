@@ -1,0 +1,65 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Motel+King&family=Fredoka+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #0a0a0a;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* FBI Investigation Cursor - Magnifying Glass */
+* {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><circle cx="12" cy="12" r="10" fill="none" stroke="%2300ff41" stroke-width="2"/><line x1="20" y1="20" x2="28" y2="28" stroke="%2300ff41" stroke-width="2" stroke-linecap="round"/></svg>') 12 12, auto;
+}
+
+button, a, [role="button"] {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><circle cx="10" cy="10" r="8" fill="none" stroke="%23dc143c" stroke-width="2"/><path d="M4 4 L16 16 M16 16 L28 28" stroke="%23dc143c" stroke-width="2" stroke-linecap="round"/><circle cx="10" cy="10" r="3" fill="%23dc143c"/></svg>') 10 10, auto;
+}
+
+input, textarea, select {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><rect x="8" y="2" width="16" height="28" fill="none" stroke="%23dc143c" stroke-width="1.5" rx="2"/><line x1="8" y1="6" x2="24" y2="6" stroke="%23dc143c" stroke-width="1"/><line x1="8" y1="12" x2="24" y2="12" stroke="%23dc143c" stroke-width="1"/><line x1="8" y1="18" x2="24" y2="18" stroke="%23dc143c" stroke-width="1"/></svg>') 10 10, text;
+}
+
+/* Selection styling - FBI red */
+::selection {
+  background-color: #dc143c;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dc143c;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #8b0000;
+}
