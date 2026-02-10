@@ -6,7 +6,7 @@ export default function Header() {
   const nameVariants = {
     initial: { opacity: 0, x: -50 },
     animate: { opacity: 1, x: 0, transition: { duration: 0.6 } },
-    hover: { color: '#00ff41', textShadow: '0 0 20px rgba(0, 255, 65, 0.5)' },
+    hover: { color: '#00ff41', textShadow: '0 0 20px rgba(0, 255, 65, 0.5)', scale: 1.1, transition: { duration: 0.3 } },
   }
 
   const bloodDripVariants = {
@@ -28,6 +28,7 @@ export default function Header() {
     hover: {
       color: '#dc143c',
       textShadow: '0 0 10px rgba(220, 20, 60, 0.8)',
+      scale: 1.1,
       transition: { duration: 0.3 },
     },
   }

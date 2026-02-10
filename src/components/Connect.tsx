@@ -128,7 +128,7 @@ export default function Connect() {
                   whileHover={{
                     boxShadow: '0 0 40px rgba(0, 255, 65, 0.6), 0 0 80px rgba(220, 20, 60, 0.2)',
                     borderColor: '#dc143c',
-                    scale: 1.05,
+                    scale: 1.1,
                   }}
                   transition={{ duration: 0.3 }}
                 >

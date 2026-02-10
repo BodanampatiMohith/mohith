@@ -151,8 +151,9 @@ export default function Projects() {
                     ? {
                         boxShadow: '0 0 30px rgba(220, 20, 60, 0.8), 0 0 60px rgba(0, 255, 65, 0.3)',
                         rotate: [-0.5, 0.5, -0.5],
+                        scale: 1.1,
                       }
-                    : { boxShadow: '0 0 0px rgba(0,0,0,0)' }
+                    : { boxShadow: '0 0 0px rgba(0,0,0,0)', scale: 1 }
                 }
                 transition={{ duration: 0.4 }}
               >

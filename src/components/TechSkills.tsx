@@ -58,7 +58,7 @@ export default function TechSkills() {
     initial: { opacity: 0.6, scale: 0.95 },
     hover: {
       opacity: 1,
-      scale: 1.05,
+      scale: 1.15,
       rotateY: 180,
       backgroundColor: '#00ff41',
       color: '#0a0a0a',

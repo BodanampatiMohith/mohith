@@ -63,3 +63,21 @@ input, textarea, select {
 ::-webkit-scrollbar-thumb:hover {
   background: #8b0000;
 }
+
+/* Magnifying hover effect for all interactive elements */
+.magnify-hover {
+  transition: transform 0.3s ease-out;
+}
+
+.magnify-hover:hover {
+  transform: scale(1.1);
+}
+
+/* Enhanced magnifying effect for cards */
+.magnify-hover-large {
+  transition: transform 0.3s ease-out;
+}
+
+.magnify-hover-large:hover {
+  transform: scale(1.15);
+}

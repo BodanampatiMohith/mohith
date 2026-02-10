@@ -139,7 +139,7 @@ export default function Hero() {
         <motion.button
           variants={itemVariants}
           whileHover={{
-            scale: 1.05,
+            scale: 1.1,
             boxShadow: '0 0 30px rgba(220, 20, 60, 0.7)',
             backgroundColor: '#8b0000',
           }}

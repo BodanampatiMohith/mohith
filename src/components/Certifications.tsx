@@ -109,6 +109,7 @@ export default function Certifications() {
                 whileHover={{
                   boxShadow: '0 0 40px rgba(220, 20, 60, 0.8), 0 0 80px rgba(0, 255, 65, 0.2)',
                   borderColor: '#00ff41',
+                  scale: 1.05,
                 }}
                 transition={{ duration: 0.3 }}
               >
