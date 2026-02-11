@@ -13,7 +13,7 @@
 
 ## 🎬 Live Demo
 
-🔗 **[View Live Portfolio](https://bodanampatimohith.github.io/mohith/)**
+🔗 **[View Live Portfolio](https://mohith-theta.vercel.app)**
 
 ---
 
